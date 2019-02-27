@@ -1,9 +1,9 @@
 #!/bin/bash
 
-INPUT_DIRECTORY=/home/qrluo/MagentaProject/chopin
+INPUT_DIRECTORY=./chopin
 
 # TFRecord file that will contain NoteSequence protocol buffers.
-SEQUENCES_TFRECORD=/home/qrluo/MagentaProject/tmp/notesequences.tfrecord
+SEQUENCES_TFRECORD=./datasets/chopin.tfrecord
 
 convert_dir_to_note_sequences \
   --input_dir=$INPUT_DIRECTORY \
